@@ -7,3 +7,7 @@
 ::-webkit-scrollbar{
   display: none;
 }
+
+@theme{
+  --color-primary: #5C6BC0;
+}
