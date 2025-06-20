@@ -64,7 +64,7 @@ const Blog = () => {
        {/* Add Comment Section */}
                 <div className='max-w-3xl mx-auto'>
                   <p className='font-semibold mb-4'>Add your comment</p>
-                  f<form onSubmit={addComment} className='flex flex-col items-start gap-4 max-w-lg'>
+                  <form onSubmit={addComment} className='flex flex-col items-start gap-4 max-w-lg'>
                     <input type="text" placeholder='Name' required className='w-full p-2 border border-gray-300 rounded outline-none'/>
 
                   <textarea placeholder='Comment' className='w-full p-2 border border-gray-300 rounded outline-none h-48' required></textarea>
